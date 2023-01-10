@@ -9,3 +9,9 @@ function returnsANamedFunction() {
 
     return func;
 }
+
+function returnsAnAnonymousFunction() {
+    return function() {
+        return "This is an anonymous function";
+    }
+}
